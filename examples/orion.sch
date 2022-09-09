@@ -27,19 +27,21 @@ angular_width=29.0
 mag_min=7
 width=15.0
 aspect=1.41421356
-ra_dec_lines=1
-constellation_boundaries=1
+ra_dec_lines=0
+constellation_boundaries=0
 constellation_sticks=1
 coords=ra_dec
 projection=gnomonic
 star_names=1
 star_flamsteed_labels=0
 constellation_names=1
-plot_galaxy_map=1
+plot_galaxy_map=0
 plot_equator=0
 plot_ecliptic=0
-plot_galactic_plane=1
+plot_galactic_plane=0
 font_size=1.2
+star_col=1,1,1
+constellation_stick_col=1,1,1
 
 # Produce a PNG copy of this star chart
 CHART

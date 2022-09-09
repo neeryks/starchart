@@ -4,6 +4,9 @@ FROM python:3.10-bullseye
 # Install required libraries
 RUN apt-get update
 RUN apt-get install -y wget gzip git libgsl-dev libcairo2-dev ; apt-get clean
+RUN pip3 install numpy
+RUN apt-utils && apt-get install -y curl
+RUN apt install imagemagick
 
 # Install ephemeris software
 WORKDIR /

@@ -39,7 +39,7 @@ constellation_stick_col=0,0,0
 constellation_label_col=0,0,0
 
 CHART
-output_filename=output/newwhite.svg
+output_filename=output/#661014svg
 star_col=1,1,1
 constellation_stick_col=1,1,1
 constellation_label_col=1,1,1
